@@ -18,7 +18,7 @@ If an obstacle is not detected by the ultrasonic sensor, IR sensors serve as a b
 ## **Hardware Components Used**
 **Essential Components**
 - Motor driver L298N
-- 2× DC motor 3–6V (with shaft)
+- 2× DC motor 3–6V (with gearbox)
 - 2× 69mm wheels
 - 360° rotary wheel
 - Arduino Uno
