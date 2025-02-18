@@ -1,4 +1,5 @@
 # **Arduino Obstacle Avoiding Robot Vehicle**
+
 This repository showcases a common Arduino Uno project – an autonomous robot vehicle that avoids obstacles.
 
 The robot continuously scans its surroundings and detects obstacles in three directions (left, right, and front) using an ultrasonic sensor. Based on the measured distances, it moves toward the direction with the most open space.
@@ -8,8 +9,11 @@ The Arduino robot consists of an Arduino UNO, DC motors, and an ultrasonic senso
 
 The robot moves toward the **direction with the most open space**.
 After ultrasonic sensor calculates distance it moves in that empty space for (distance in cm * 17) milliseconds - for average robot velocity of 37cm per second.
+
 If it reaches a corner where obstacles are detected in all directions within 15 cm, it reverses to its previous position.
+
 If obstacles are detected in all directions within 15–25 cm, the robot turns 180° and continues.
+
 If an obstacle is not detected by the ultrasonic sensor, IR sensors serve as a backup to ensure the robot does not get stuck or crash into an obstacle.
 
 ## **Used Libraries** 
@@ -27,6 +31,7 @@ If an obstacle is not detected by the ultrasonic sensor, IR sensors serve as a b
 - Ultrasonic sensor HC-SR04
 - 4× AA batteries + holder for 4 batteries
 - 240x147mm laminate board or hard cardboard.
+- Dupont cables (14x F-M, 18x M-M)
 
 **Optional Components**
 
@@ -42,6 +47,7 @@ If an obstacle is not detected by the ultrasonic sensor, IR sensors serve as a b
 ### **Hardware Malfunctions:** 
 
 Before assembling everything, test each component individually to ensure proper functionality.
+
 Motor Issues: If the DC motors produce noise but do not move, the issue may be insufficient voltage or motors spinning in opposite directions, which can confuse the L298N motor driver’s H-bridge.
 
 ## **Circuit Diagrams**
@@ -51,7 +57,14 @@ Motor Issues: If the DC motors produce noise but do not move, the issue may be i
 ## **Final Build**
 
 Below is the final appearance of the project:
-Work in progress...
+### Appearence from the front side
+
+![PXL_20250218_172159793-removebg-preview](https://github.com/user-attachments/assets/fd0173e3-41d3-4e35-b6c4-e16ea9689873)
+
+## Appearence from top view (on the left), bottom (on the right)
+
+![PXL_20250218_172212789-removebg-preview](https://github.com/user-attachments/assets/71c9aac4-5a73-425d-9a66-107cdc4d1305)
+
 
 ### **Note**
 
