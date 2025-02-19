@@ -10,6 +10,7 @@ Servo myServo;
 #define ECHO_PIN A0
 
 // Motor pins
+// Make sure both IN1,IN2 and IN3,IN4 are connected the same way, otherwise dc motors may not work.
 #define RIGHT_FORWARD 6  
 #define RIGHT_BACKWARD 7  
 #define LEFT_BACKWARD 8  
