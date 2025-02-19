@@ -17,7 +17,6 @@ If obstacles are detected in all directions within 15–25 cm, the robot turns 1
 If an obstacle is not detected by the ultrasonic sensor, IR sensors serve as a backup to ensure the robot does not get stuck or crash into an obstacle.
 
 ## **Used Libraries** 
-- **[SoftwareSerial](https://docs.arduino.cc/learn/built-in-libraries/software-serial/)**
 - **[Servo](https://docs.arduino.cc/libraries/servo/)**
 
 ## **All Used Components**
