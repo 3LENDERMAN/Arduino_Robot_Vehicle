@@ -47,6 +47,8 @@ If an obstacle is not detected by the ultrasonic sensor, IR sensors serve as a b
 
 Before assembling everything, test each component individually to ensure proper functionality.
 
+Soldering: Make sure dc motors are soldered properly and are holding tight. Be careful when soldering the led filament, it shouldn't be exposed to high temperatures for longer periods of time.
+
 Motor Issues: If the DC motors produce noise but do not move, the issue may be insufficient voltage or motors spinning in opposite directions, which can confuse the L298N motor driver’s H-bridge.
 
 ## **Circuit Diagrams**
