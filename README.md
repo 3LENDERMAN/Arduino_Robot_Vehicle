@@ -29,7 +29,8 @@ If an obstacle is not detected by the ultrasonic sensor, IR sensors serve as a b
 - Servo MG90S
 - Ultrasonic sensor HC-SR04
 - 4× AA batteries + holder for 4 batteries
-- 240x147mm laminate board or hard cardboard.
+- Mini ON/OFF rocker switch
+- 240x147mm laminate board or hard cardboard
 - Dupont cables (14x F-M, 18x M-M)
 
 **Optional Components**
@@ -38,6 +39,11 @@ If an obstacle is not detected by the ultrasonic sensor, IR sensors serve as a b
 - 3× Infrared sensor (for detecting close-up objects within 6 cm)
 - Mini breadboard ZY-25 (for infrared sensors)
 - 9V battery with connector (some motor drivers may not provide enough power for both the Arduino and motors)
+
+- You will also need screws for rotary wheel,
+- Hot glue gun to connect components to laminate board (or small screws),
+- Black electritian tape for edges and
+- Rubber tube to isolate soldered areas.
 
 ## **Common Troubleshooting Issues**
 
