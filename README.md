@@ -76,6 +76,6 @@ Below is the final appearance of the project:
 ### **Note**
 
 - There is an option to control speed of rotation of the wheels with method known as PWM (Pulse width modulation) which essentially just limits supply voltage and thus changes the rotary velocity.
-- To enable this, you need to connect the pin ENA and ENB to arduino uno digital pins and set it as OUTPUT.
+- To enable this, you need to connect the pin ENA and ENB to arduino uno digital pins (only those supporting pwm - small wave symbol next to the pin) and set it as OUTPUT.
 - Speed is then controlled by value in interval  40 - 255.
 - Without this method, wheel rotation will be at maximum. 
