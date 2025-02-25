@@ -79,3 +79,5 @@ Below is the final appearance of the project:
 - To enable this, you need to connect the pin ENA and ENB to arduino uno digital pins (only those supporting pwm - small wave symbol next to the pin) and set it as OUTPUT.
 - Speed is then controlled by value in interval  40 - 255.
 - Without this method, wheel rotation will be at maximum. 
+
+### **There will be wireless remote connection via bluetooth in further versions **
